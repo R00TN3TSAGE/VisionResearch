@@ -1,46 +1,80 @@
 # VisionResearch: Facial Recognition System
 
 ## Overview
-VisionResearch is a cutting-edge facial recognition system developed using TensorFlow and leveraging the MobileNetV2 architecture for efficient and accurate identification of human faces. This project demonstrates the power of convolutional neural networks (CNNs) in extracting facial features and generating embeddings that can be used for a wide range of applications, from security systems to personalized customer experiences.
+VisionResearch is a cutting-edge facial recognition system leveraging TensorFlow and MobileNetV2 architecture. This project showcases the capabilities of convolutional neural networks (CNNs) to extract facial features and generate embeddings for applications ranging from security systems to personalized user experiences.
 
 ## Features
-- High accuracy face detection with MTCNN.
-- Robust facial feature extraction using the pre-trained MobileNetV2 model.
-- Modular and easily extendable codebase for further development and integration.
+- **High Accuracy Face Detection**: Utilizes MTCNN for precise face detection.
+- **Robust Facial Feature Extraction**: Employs a pre-trained MobileNetV2 model for feature extraction.
+- **Modular Design**: The codebase is structured for easy extension and further development.
 
 ## Getting Started
 
 ### Prerequisites
-Ensure you have the following installed before you begin:
+Before starting, ensure you have the following installed:
 - Python 3.6 or higher
-- pip and virtualenv
+- pip
+- virtualenv (optional but recommended)
 
 ### Installation
-1. **Clone the Repository**
-    ```bash
-    git clone https://github.com/yourusername/visionresearch.git
-    cd visionresearch
-    ```
 
-2. **Set Up a Virtual Environment** (Optional but recommended)
-    - Create a virtual environment:
-      ```bash
-      python3 -m venv venv
-      ```
-    - Activate the virtual environment:
-      - On macOS/Linux:
-        ```bash
-        source venv/bin/activate
-        ```
-      - On Windows:
-        ```bash
-        .\venv\Scripts\activate
-        ```
+#### Clone the Repository
+\`\`\`bash
+git clone https://github.com/R00TN3TSAGE/VisionResearch.git
+cd visionresearch
+\`\`\`
 
-3. **Install Dependencies**
-    ```bash
-    pip install -r requirements.txt
-    ```
+#### Set Up a Virtual Environment (Optional)
+Create and activate a virtual environment:
 
-### Directory Structure
-Provide a brief overview of the project's directory structure:
+- **macOS/Linux**:
+  \`\`\`bash
+  python3 -m venv venv
+  source venv/bin/activate
+  \`\`\`
+
+- **Windows**:
+  \`\`\`bash
+  python -m venv venv
+  .\\venv\\Scripts\\activate
+  \`\`\`
+
+#### Install Dependencies
+\`\`\`bash
+pip install -r requirements.txt
+\`\`\`
+
+## Usage
+Navigate to the \`/src\` directory and run the main script:
+\`\`\`bash
+python face_recognition.py
+\`\`\`
+This script processes images in the \`/images\` directory, detecting faces and generating embeddings.
+
+## Project Structure
+\`\`\`
+visionresearch/
+
+
+├── models/ - Storage for pre-trained and custom model
+
+├── images/ - Directory for sample images
+
+├── src/ - Source code for the facial recognition system
+
+│ └── face_recognition.py - Main script
+
+├── requirements.txt - Project dependencies
+
+└── README.md - Project documentation
+\`\`\`
+
+## Contributing
+Contributions to VisionResearch are welcome! Please fork the repository, create a feature branch, and submit a pull request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+- **Your Name** - rootnetsage@proton.me
+- Project Link: https://github.com/R00TN3TSAGE/VisionResearch
