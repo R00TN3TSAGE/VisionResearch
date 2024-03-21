@@ -76,5 +76,5 @@ Contributions to VisionResearch are welcome! Please fork the repository, create 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
-- **Your Name** - rootnetsage@proton.me
+- **Mail:** - rootnetsage@proton.me
 - Project Link: https://github.com/R00TN3TSAGE/VisionResearch
