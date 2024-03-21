@@ -1,7 +1,7 @@
 # VisionResearch: Facial Recognition System
 
 ## Overview
-VisionResearch is a cutting-edge facial recognition system leveraging TensorFlow and MobileNetV2 architecture. This project showcases the capabilities of convolutional neural networks (CNNs) to extract facial features and generate embeddings for applications ranging from security systems to personalized user experiences.
+**THIS PROJECT IS STILL UNDER DEVELOPMENT** VisionResearch is a cutting-edge facial recognition system leveraging TensorFlow and MobileNetV2 architecture. This project showcases the capabilities of convolutional neural networks (CNNs) to extract facial features and generate embeddings for applications ranging from security systems to personalized user experiences.
 
 ## Features
 - **High Accuracy Face Detection**: Utilizes MTCNN for precise face detection.
@@ -70,7 +70,7 @@ visionresearch/
 \`\`\`
 
 ## Contributing
-Contributions to VisionResearch are welcome! Please fork the repository, create a feature branch, and submit a pull request.
+Contributions to VisionResearch are welcome! Please fork the repository, create a feature branch, and submit a pull request. 
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
